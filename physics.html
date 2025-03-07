@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics - BrightFutures Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg,  #800080, #0275d8);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #4B0082;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .section p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .list {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .list li {
+            flex: 1 1 calc(50% - 1rem);
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+            padding: 1rem;
+            background: #f0f0f5;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .back-btn {
+            display: inline-block;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            background:#4B0082;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            text-align: center;
+        }
+        .back-btn:hover {
+            background: #800080;
+        }
+	      
+	.image-container {
+            float: left;
+            margin-right: 1rem;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Physics</h1>
+        <p>Understand the fundamental principles of the universe.</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Overview of Physics</h2>
+            <p>Physics is a branch of physical science that involves the study of matter and its motion and behavior through space and time, along with related concepts such as energy and force; in other words, understanding how the universe behaves. Sub-disciplines include applied physics, astrophysics, biophysics, condensed matter physics, high-energy physics, nuclear physics, optics, and particle physics. Resources for physics are primarily available via the Web and some of the key web resources can be found in this guide.</p>
+	<h2> Information about Physics </h2>	
+		<div class="image-container">
+		<img src="https://i.postimg.cc/8P5d9s24/student-physics-scientist-pointing-planet-260nw-2319613459.jpg" alt="Physics Concept">
+</div>
+		  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics - Tooltip Example</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            font-weight: bold;
+            color:  #800080;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 14px;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+ 
+    <p>
+        <span class="tooltip">Physics
+            <span class="tooltiptext">The scientific study of matter, energy, and forces.</span>
+        </span> is the scientific study of 
+        <span class="tooltip">Matter
+            <span class="tooltiptext">Anything that has mass and takes up space.</span>
+        </span>, its fundamental constituents, its motion and behavior through space and time, and the related entities of 
+        <span class="tooltip">Energy
+            <span class="tooltiptext">The capacity to do work, existing in various forms such as kinetic and potential energy.</span>
+        </span> and 
+        <span class="tooltip">Force
+            <span class="tooltiptext">An interaction that causes a change in motion of an object.</span>
+        </span>. Physics is one of the most fundamental scientific disciplines. A scientist who specializes in the field of physics is called a physicist.
+    </p>
+
+    <p>
+        Physics is one of the oldest academic disciplines. Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were a part of 
+        <span class="tooltip">Natural Philosophy
+            <span class="tooltiptext">An early term for the study of nature, which later developed into modern science.</span>
+        </span>, but during the 
+        <span class="tooltip">Scientific Revolution
+            <span class="tooltiptext">A period in the 16th-17th centuries that transformed scientific thought and established modern science.</span>
+        </span> in the 17th century, these natural sciences branched.
+    </p>
+
+    <p>
+        Physics intersects with many interdisciplinary areas of research, such as 
+        <span class="tooltip">Biophysics
+            <span class="tooltiptext">An interdisciplinary field that applies physics principles to biological systems.</span>
+        </span> and 
+        <span class="tooltip">Quantum Chemistry
+            <span class="tooltiptext">A branch of chemistry focusing on quantum mechanics in atomic and molecular interactions.</span>
+        </span>. The boundaries of physics are not rigidly defined.
+    </p>
+
+    <p>
+        Advances in physics often enable new technologies. For example, advances in the understanding of 
+        <span class="tooltip">Electromagnetism
+            <span class="tooltiptext">The study of electric and magnetic fields and their interactions.</span>
+        </span>, solid-state physics, and 
+        <span class="tooltip">Nuclear Physics
+            <span class="tooltiptext">The branch of physics that studies atomic nuclei and their interactions.</span>
+        </span> led directly to the development of technologies that have transformed modern society, such as television, computers, domestic appliances, and nuclear weapons.
+    </p>
+
+    <p>
+        Advances in 
+        <span class="tooltip">Thermodynamics
+            <span class="tooltiptext">The study of heat, energy, and work in physical systems.</span>
+        </span> led to the development of 
+        <span class="tooltip">Industrialization
+            <span class="tooltiptext">The large-scale development of industries and machinery in society.</span>
+        </span>, and advances in mechanics inspired the development of 
+        <span class="tooltip">Calculus
+            <span class="tooltiptext">A branch of mathematics that deals with rates of change and accumulation.</span>
+        </span>.
+    </p>
+        </section>
+        <section class="section">
+            <h2>Key Topics in Physics</h2>
+            <ul class="list">
+                <li>Mechanics (Newton’s Laws, Motion, Forces)</li>
+                <li>Thermodynamics (Heat, Energy, Laws of Thermodynamics)</li>
+                <li>Electromagnetism (Electricity, Magnetism, Circuits)</li>
+                <li>Optics (Light, Reflection, Refraction, Lasers)</li>
+                <li>Quantum Physics (Particles, Waves, Uncertainty Principle)</li>
+                <li>Astrophysics (Stars, Black Holes, Space Exploration)</li>
+            </ul>
+        </section>
+    
+        <a href="science.html" class="back-btn">⬅ Back to Science Stream</a>
+    </div>
+</body>
+</html> 
